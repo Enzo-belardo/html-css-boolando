@@ -50,13 +50,18 @@ ul>li{
 }
 
 .container-card{
-    width: 80%;
-    margin: auto;
-    height: 500px;
+    margin: 0 .5rem;
+    height: 600px;
     position: relative;
+}
+.description{
+    position: absolute;
+    left: 0;
+    bottom:40px;
 }
 .card{
     width: calc(100%/3) -1rem; 
+    height: 500px;
 }
 .sconto{
     width: 3rem;
@@ -64,21 +69,21 @@ ul>li{
     color: white;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 150px;
     padding: .2rem .5rem;
 }
 .eco{
     background-color: green;
     color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 150px;
     padding: .2rem .5rem;
 }
 .eco-first-card{
     background-color: green;
     color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 150px;
     right: 200px;
     padding: .2rem .5rem;
 }
