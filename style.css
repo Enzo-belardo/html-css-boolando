@@ -42,4 +42,18 @@ ul>li{
     font-size: 2rem;
     justify-content: flex-end;
 }
+.container-main{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.container-card{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+.card{
+    width: calc(100%/3) -1rem; 
+}
