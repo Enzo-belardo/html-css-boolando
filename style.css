@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+
+header{
+    height: 50px;
+    background-color: orange;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+ul{
+    width: 50%;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul>li{
+    display: inline;
+    margin: 0 .5rem;
+}
+.container-logo{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 150px;
+    padding: .5rem;
+   
+}
+.icon{
+    width: 50%;
+    font-size: 2rem;
+    justify-content: flex-end;
+}
+
